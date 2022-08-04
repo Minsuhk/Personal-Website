@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-}
 
+}
+@viewport{
+    width: device-width;
+    zoom: 1.0;
+}
 .hero{
     position: relative;
     width: 100%;
@@ -46,13 +50,14 @@ nav ul li a:hover{
     color: rgb(255, 81, 0)/*This changes the color of the buttons at the very top when you hover them*/
 }
 
-.detel{
+.detel{/*editing anything in .detel will change the box that surrounds the main text*/
     margin-left: 8%;
     margin-top: 15%;
     background: ghostwhite; 
-    padding: 10px; 
+    padding: 100px; 
     border: 1px solid lightgray; 
     width: 500px;
+    border-radius: 100px /*This alters the edges of the text box*/
 }
 
 .detel h1{
@@ -72,11 +77,11 @@ span{
 }
 
 .detel a{
-    background: #212121;/*changes the outer part of the download button*/
+    background: #212121;/*changes the outer part of the download resume button*/
     padding: 10px 18px;
     text-decoration: none;
     font-weight: bold;
-    color: #fff;/*changes the text of the download button*/
+    color: #fff;/*changes the text of the download resume button*/
     display: inline-block;
     margin: 30px 0;
     border-radius: 5px;
