@@ -12,6 +12,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
+    max-width: 100%;/*https://www.w3schools.com/html/html_responsive.asp*/
     background-image: url("Images/Inazuma02.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -54,7 +55,7 @@ nav ul li a:hover{
     margin-left: 8%;
     margin-top: 15%;
     background: ghostwhite; 
-    padding: 100px; 
+    padding: 50px; 
     border: 1px solid lightgray; 
     width: 500px;
     border-radius: 100px /*This alters the edges of the text box*/
@@ -64,6 +65,7 @@ nav ul li a:hover{
     font-size: 50px;
     color: #212121;/*212121*//*This changes the color of the title*/
     margin-bottom: 20px;
+    text-align: center;
 }
 
 span{
@@ -74,6 +76,7 @@ span{
 .detel p{
     color: #555;/*This changes the color of the text underneath the title*/
     line-height: 22px;
+    text-align: center;
 }
 
 .detel a{
@@ -85,7 +88,7 @@ span{
     display: inline-block;
     margin: 30px 0;
     border-radius: 5px;
-    
+    text-align: center;
 }
 
 .images{
@@ -128,6 +131,7 @@ span{
 
 .images:hover .waifu{
     left: 0px;
+    max-width: 100%;
 }
 
 .social{
@@ -137,7 +141,7 @@ span{
 
 .social a{
     font-size: 30px;
-    color: #212121;
+    color: #212121; /*this changes the icons of the github, linkedin, etc*/
     margin-right: 20px;
     background: ghostwhite; 
     padding: 10px; 
@@ -146,7 +150,7 @@ span{
 }
 
 .social a:hover{
-    color: rgb(255, 81, 0);
+    color: rgb(255, 81, 0);/*this changes the color of the icons when hovering*/
 }
 
 
